@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+	background-color: steelblue;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+nav {
+    background-color: black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
+
+main {
+    max-width: 840px;
+    grid-column: 1/2;
+    margin: 1rem;
+}
+
+aside {
+   /* display: flex; */
+    width: 20rem;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    grid-column: 2/3;
+    /* grid-row: 1/2; */
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+p {padding: 0;}
+
+.card{
+    border: 1px solid black;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.card h2{
+    text-align: center;
+    max-height: 50px;
+    line-height: 40px;
+    padding-top: 5px;
+    background-color: #f08c8c;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+
+}
+.card .me{
+    display: flex;
+    padding: 20px;
+}
+.card .me img{
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    background-color: steelblue;
+    padding-block: 1rem;
+}
+
+footer p {
+    color: white;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 0.5rem;
+    border: 2px solid rgb(0, 0, 0,.1);
+    padding: 1rem;
+    /* background-color: #ddd; */
+    color: #000;
+}
+
+aside h2 {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    color: rgba(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+
+
+
+.grid {
+    display: grid;
+   /* align-items: center; */
+}
+
+aside.box {
+    align-self: stretch;
+}
+
+aside p {
+    /* display: grid; */
+    width: 200px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+
+article .feldset .tetaarea {
+    display: flex;
+    flex-direction: column;
+}
