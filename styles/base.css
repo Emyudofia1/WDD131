@@ -19,7 +19,7 @@ body {
 header {
     width: auto;
     display: grid;
-    grid-template-rows: (100px auto) (30px auto);
+    grid-template-rows: 100px  30px;
     margin-bottom: 20px;
 }
 
@@ -155,7 +155,7 @@ main {
 
 
 footer {
-    height: minmax(100px, auto);
+    height: (100px, auto);
     background-color: steelblue;
     max-width: 100vw;
     padding: 20px;
