@@ -50,10 +50,13 @@ header {
 
 .data-overlay {
     left: 5%;
+    top: 5%;
 }
 
 .weather-overlay {
     right: 5%;
+    bottom: 10%;
+    top: 50%;
 }
 
 .data-overlay h2,
