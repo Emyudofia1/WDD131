@@ -48,7 +48,36 @@ const temples = [
     area: 9600,
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+  },
+
+  {
+    templeName: "Manti Utah",
+    location: "Manti, Utah, United States",
+    dedicated: "1888-05-21",
+    area: 74792,
+    imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+    
+  },
+
+  {
+    templeName: "Yigo Guam",
+    location: "Yigo, Guam",
+    dedicated: "2020-05-02",
+    area: 6861,
+    imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+  },
+
+  {
+    templeName: "Aba Nigeria",
+    location: "Aba, Nigeria",
+    dedicated: "2005-08-07",
+    area: 11500,
+    imageUrl:
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
   }
+
 ];
 
 // Generate Temple Cards
@@ -59,16 +88,23 @@ function displayTemples(filteredTemples) {
   filteredTemples.forEach(temple => {
     const templeCard = `
       <div class="temple-card">
-        <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy">
-        <h3>${temple.templeName}</h3>
-        <p><strong>Location:</strong> ${temple.location}</p>
-        <p><strong>Dedicated:</strong> ${temple.dedicated}</p>
-        <p><strong>Area:</strong> ${temple.area} sq ft</p>
+        <div class="image-wrapper">
+          <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy">
+          <div class="temple-card-content">
+            <h3>${temple.templeName}</h3>
+            <p><strong>Location:</strong> ${temple.location}</p>
+            <p><strong>Dedicated:</strong> ${temple.dedicated}</p>
+            <p><strong>Area:</strong> ${temple.area} sq ft</p>
+          </div>
+        </div>
       </div>
     `;
     container.innerHTML += templeCard;
   });
 }
+
+
+
 
 // Filtering Logic
 function filterTemples(criteria) {

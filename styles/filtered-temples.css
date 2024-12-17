@@ -12,18 +12,22 @@ nav ul {
   padding: 0;
 }
 
+.active {
+	color: yellow;
+}
+
 nav button {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
-  background-color: #007BFF;
-  color: #fff;
+  background-color: steelblue;
+  color: black;
   cursor: pointer;
   border-radius: 5px;
 }
 
 nav button:hover {
-  background-color: #0056b3;
+  background-color: white;
 }
 
 #temple-container {
