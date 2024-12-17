@@ -1,0 +1,44 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 420px; /* Center the images */
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out; /* Fade-in effect */
+}
+
+img.lazy.loaded {
+    opacity: 1; /* Fully visible after load */
+}
+
+footer {
+    margin: 20px 0;
+    font-size: 0.9rem;
+    color: #555;
+}

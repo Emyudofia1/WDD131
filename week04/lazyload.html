@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Images</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/lazyload.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Images Example</h1>
+    </header>
+
+    <main>
+        <!-- Images with lazy loading -->
+        <img src="images/image1-placeholder.jpg" data-src="images/image1.jpg" alt="Image 1" class="lazy">
+        <img src="images/image2-placeholder.jpg" data-src="images/image2.jpg" alt="Image 2" class="lazy">
+        <img src="images/image3-placeholder.jpg" data-src="images/image3.jpg" alt="Image 3" class="lazy">
+        <img src="images/image4-placeholder.jpg" data-src="images/image4.jpg" alt="Image 4" class="lazy">
+        <img src="images/image5-placeholder.jpg" data-src="images/image5.jpg" alt="Image 5" class="lazy">
+        <img src="images/image6-placeholder.jpg" data-src="images/image6.jpg" alt="Image 6" class="lazy">
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lazy Load Demo | Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

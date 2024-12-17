@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+nav button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #0056b3;
+}
+
+#temple-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.temple-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.temple-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.temple-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #007BFF;
+}
+
+.temple-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
