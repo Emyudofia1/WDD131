@@ -1,0 +1,306 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: skyblue;
+}
+
+/* Header */
+header {
+    background: #2a6caf;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section with Full-Page Image */
+.hero {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Featured Destinations Section */
+.featured-destinations {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.featured-destinations .destination {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+.featured-destinations img {
+    width: 100%; /* Makes all images responsive */
+    height: 200px; /* Uniform height */
+    object-fit: cover; /* Crop to maintain proportions */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #2a6caf;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+
+/* from back up */
+
+/* General Styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: skyblue;
+}
+
+/* Header */
+header {
+    background: #2a6caf;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section with Full-Page Image */
+.hero {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Main Content Styling */
+main {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+    background: cornsilk;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Destination Images: Uniform Size */
+section img {
+    width: 100%; /* Make all images responsive */
+    max-width: 400px; /* Set a uniform max width */
+    height: 250px; /* Fixed height for all images */
+    object-fit: cover; /* Crop to maintain proportions */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #2a6caf;
+}
+
+/* Footer */
+footer {
+    background: #2a6caf;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+
+/* Hero Section Adjustments */
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 50vh; /* Make hero smaller on smaller screens */
+        background-position: center;
+        background-size: cover;
+    }
+    .hero h1 {
+        font-size: 1.8rem; /* Smaller font size for hero text */
+        text-align: center;
+    }
+    .hero p {
+        font-size: 1rem; /* Adjust subtitle */
+    }
+}
+
+/* Featured Destinations Adjustments */
+@media screen and (max-width: 768px) {
+    .featured-destinations {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .featured-destinations img {
+        width: 90%; /* Make images smaller for better fit */
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+
+/* Footer Adjustments */
+@media screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+        font-size: 0.8rem; /* Smaller text */
+        padding: 10px;
+    }
+}
