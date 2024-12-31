@@ -134,3 +134,8 @@ document.getElementById("small").addEventListener("click", () => filterTemples("
 window.onload = () => displayTemples(temples);
 
 document.getElementById("lastModified").textContent = document.lastModified;
+
+/*dhdhhdh
+djdhhdh
+dhdhhdh*/
+
